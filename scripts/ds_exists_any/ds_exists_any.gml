@@ -21,6 +21,9 @@ function ds_exists_any(_id_string) {
 	for (var i = 0; i < array_length(ds_types); i++) {
 		// Return type if ds of type exists
 		if (ds_exists(ds, ds_types[i])) {
+			// Set variable index to -1 to avoid accidental deletions
+			variable_instance_set(self, _id_string, -1);
+
 			return ds_types[i];
 		}
 	}

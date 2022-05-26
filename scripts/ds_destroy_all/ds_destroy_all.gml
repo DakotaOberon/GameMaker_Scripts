@@ -45,6 +45,9 @@ function ds_destroy_all() {
 				ds_stack_destroy(ds_index);
 			break;
 		}
+
+		// Set variable index to -1 to avoid accidental deletions
+		variable_instance_set(self, name, -1);
 	}
 
 	return;
