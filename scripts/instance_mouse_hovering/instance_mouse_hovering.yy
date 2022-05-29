@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Device.yy",
   },
   "resourceVersion": "1.0",
-  "name": "get_mouse_hovering",
+  "name": "instance_mouse_hovering",
   "tags": [],
   "resourceType": "GMScript",
 }
