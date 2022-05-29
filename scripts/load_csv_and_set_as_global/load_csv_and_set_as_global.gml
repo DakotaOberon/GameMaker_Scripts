@@ -7,8 +7,6 @@
 * @see			load_csv, variable_global_set
 */
 function load_csv_and_set_as_global(filename) {
-	log("Creating global of", filename);
-
 	// Load csv file
 	var grid = load_csv(filename + ".csv");
 

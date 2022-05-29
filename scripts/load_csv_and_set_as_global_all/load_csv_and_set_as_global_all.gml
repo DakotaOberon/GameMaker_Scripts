@@ -13,8 +13,6 @@ function load_csv_and_set_as_global_all(mask="") {
 	// Init grid array
 	var grid_array = [];
 
-	log(filename);
-
 	while filename != "" {
 		// Get filename with ".csv"
 		var filename_without_csv_tag = string_copy(filename, 0, string_length(filename) - 4);
