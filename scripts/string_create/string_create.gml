@@ -4,7 +4,7 @@
 * @function		string_create([args], ...)
 * @param		{any}	    [args]		Values to convert to string
 * @return		{String}
-* @see    references
+* @see			string
 */
 function string_create() {
 	var return_string = "";

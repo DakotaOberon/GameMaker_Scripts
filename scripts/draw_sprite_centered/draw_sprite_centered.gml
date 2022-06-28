@@ -6,8 +6,8 @@
 * @param		{real}				subimg			The sub-image (frame) of the sprite to draw
 * @param		{real}				x				The x coordinate of where to draw the sprite
 * @param		{real}				y				The y coordinate of where to draw the sprite
-* @return		{type}
-* @see			references
+* @return		{N/A}
+* @see			draw_sprite
 */
 function draw_sprite_centered(sprite, subimg, x1, y1) {
 	var center_x = sprite_get_width(sprite) / 2;

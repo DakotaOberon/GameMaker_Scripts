@@ -2,8 +2,8 @@
 * Destroys all data structures by name on calling instance
 *
 * @function		destroy_ds_all([names])
-* @param		{string}		[names]			Names of data structures to destroy
-* @return		{undefined}
+* @param		{String}		[names]			Names of data structures to destroy
+* @return		{N/A}
 * @see			ds_exists_any, variable_instance_get, ds_grid_destroy
 */
 function ds_destroy_all() {

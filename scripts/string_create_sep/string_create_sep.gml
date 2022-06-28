@@ -2,10 +2,10 @@
 * Create a string out of any number of values seperated by a string
 *
 * @function		string_create_sep([sep], [args], ...)
-* @param		{String}	[args]		String seperator between values
+* @param		{String}	[sep]		String seperator between values
 * @param		{any}	    [args]		Values to convert to string
 * @return		{String}
-* @see    references
+* @see			string
 */
 function string_create_sep(sep="") {
 	var return_string = "";

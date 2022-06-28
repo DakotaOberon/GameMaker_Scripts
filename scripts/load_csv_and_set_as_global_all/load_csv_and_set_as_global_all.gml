@@ -2,8 +2,8 @@
 * Loads all csv files and creates a global variable for each one
 *
 * @function		load_csv_and_set_as_global([mask])
-* @param		{string}		[mask]			Append a mask value to the front of the csv mask to load files from
-* @return		{ds_grid[]}
+* @param		{String}		[mask]		Append a mask value to the front of the csv mask to load files from
+* @return		{DS Grid ID[]}
 * @see			file_find_first, load_csv_and_set_as_global
 */
 function load_csv_and_set_as_global_all(mask="") {

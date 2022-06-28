@@ -3,8 +3,8 @@
 *
 * @function		log([value], ...)
 * @param		{any}		[value]			Values to be logged
-* @return		{self}
-* @see			date_time_string, date_current_datetime, show_debug_message
+* @return		{N/A}
+* @see			date_time_string, date_current_datetime, show_debug_message, string
 */
 function log() {
 	// Attach current time to logged message

@@ -2,8 +2,8 @@
 * Checks if any data structures under any id_string exist on calling instance
 *
 * @function		ds_exists_any(_id_string)
-* @param		{string}		id_string			id string of data structure
-* @return		ds_type or false
+* @param		{String}		id_string			id string of data structure
+* @return		{DS ID or False}
 * @see			variable_instance_get, ds_exists
 */
 function ds_exists_any(_id_string) {

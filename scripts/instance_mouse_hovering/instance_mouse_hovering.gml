@@ -2,8 +2,8 @@
 * Check if the mouse is colliding with an instance
 *
 * @function		instance_mouse_hovering([obj])
-* @param		{instance}		[obj]			Instance to check
-* @return		{boolean}
+* @param		{Instance ID}		[obj]		Instance to check
+* @return		{Boolean}
 * @see			collision_point
 */
 function instance_mouse_hovering(obj=self) {

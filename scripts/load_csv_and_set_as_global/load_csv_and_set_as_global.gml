@@ -2,8 +2,8 @@
 * Loads a csv file of the given name and create a global variable
 *
 * @function		load_csv_and_set_as_global(filename)
-* @param		{string}		filename			file to load
-* @return		{ds_grid}
+* @param		{String}		filename		file to load
+* @return		{DS Grid ID}
 * @see			load_csv, variable_global_set
 */
 function load_csv_and_set_as_global(filename) {
