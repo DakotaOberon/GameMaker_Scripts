@@ -7,7 +7,6 @@
 * @see			ds_exists_any, variable_instance_get, ds_grid_destroy
 */
 function ds_destroy_all() {
-
 	// For each name given
 	for (var i = 0; i < argument_count; i++) {
 		// Get ds name
