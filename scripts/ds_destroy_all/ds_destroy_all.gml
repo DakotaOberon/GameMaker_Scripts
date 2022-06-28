@@ -51,4 +51,3 @@ function ds_destroy_all() {
 
 	return;
 }
-

@@ -13,4 +13,3 @@ function instance_mouse_hovering(obj=self) {
 
 	return false;
 }
-

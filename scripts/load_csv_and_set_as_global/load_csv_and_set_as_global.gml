@@ -15,5 +15,3 @@ function load_csv_and_set_as_global(filename) {
 
 	return grid;
 }
-
-

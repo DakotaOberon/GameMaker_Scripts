@@ -10,4 +10,3 @@
 function instance_create(obj, var_struct=undefined) {
 	return instance_create_depth(x, y, depth, obj, var_struct);
 }
- 

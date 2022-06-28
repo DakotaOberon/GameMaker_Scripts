@@ -1,12 +1,14 @@
 /**
-* Get the x value of the center of the sprite
+* Draw a sprite centered on the coordinates
 *
-* @function		draw_sprite_centered(sprite, subimg, x1, y1)
-* @param		{type}		args			Description of arg
+* @function		draw_sprite_centered(sprite, subimg, x, y)
+* @param		{Sprite Asset}		sprite			The index of the sprite to draw
+* @param		{real}				subimg			The sub-image (frame) of the sprite to draw
+* @param		{real}				x				The x coordinate of where to draw the sprite
+* @param		{real}				y				The y coordinate of where to draw the sprite
 * @return		{type}
 * @see			references
 */
-
 function draw_sprite_centered(sprite, subimg, x1, y1) {
 	var center_x = sprite_get_width(sprite) / 2;
 	var center_y = sprite_get_height(sprite) / 2;
@@ -19,4 +21,3 @@ function draw_sprite_centered(sprite, subimg, x1, y1) {
 
 	draw_sprite(sprite, subimg, x2, y2);
 }
-

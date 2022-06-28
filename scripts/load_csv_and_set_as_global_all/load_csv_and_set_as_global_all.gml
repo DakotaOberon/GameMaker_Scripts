@@ -29,4 +29,3 @@ function load_csv_and_set_as_global_all(mask="") {
 
 	return grid_array;
 }
-
