@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Strings.yy",
   },
   "resourceVersion": "1.0",
-  "name": "string_create_sep",
+  "name": "string_create_with_seperation",
   "tags": [],
   "resourceType": "GMScript",
 }

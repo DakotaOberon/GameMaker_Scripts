@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Files",
-    "path": "folders/Scripts/Files.yy",
+    "name": "Sequences",
+    "path": "folders/Scripts/Sequences.yy",
   },
   "resourceVersion": "1.0",
-  "name": "load_csv_and_set_as_global",
+  "name": "layer_sequence_visible",
   "tags": [],
   "resourceType": "GMScript",
 }

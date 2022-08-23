@@ -1,12 +1,9 @@
-/**
-* Create an object at the calling objects x, y, and depth
-*
-* @function		instance_create(obj, [var_struct])
-* @param		{Object Asset}		obj			The object index of the object to create an instance of
-* @param		{Struct}			var_struct	A struct with variables to assign to the new instance
-* @return		{Instance ID}
-* @see			instance_create_depth
-*/
-function instance_create(obj, var_struct=undefined) {
-	return instance_create_depth(x, y, depth, obj, var_struct);
+// @description	Simplified instance creation function
+//
+// @function	instance_create(_obj, [_var_struct])
+// @parameter	{Object}	_obj		The object index of the object to create an instance of
+// @parameter	{Struct}	_var_struct	A struct with variables to assign to the new instance
+// @return		{Instance ID}
+function instance_create(_obj, _var_struct=undefined) {
+	return instance_create_depth(x, y, depth, _obj, _var_struct);
 }

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Data Structure",
-    "path": "folders/Scripts/Data Structure.yy",
+    "name": "Sequences",
+    "path": "folders/Scripts/Sequences.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ds_destroy_all",
+  "name": "layer_sequence_copy",
   "tags": [],
   "resourceType": "GMScript",
 }

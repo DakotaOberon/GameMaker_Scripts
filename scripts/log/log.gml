@@ -1,19 +1,16 @@
-/**
-* Logs items to console, with a timestamp, and seperated by spaces
-*
-* @function		log([value], ...)
-* @param		{any}		[value]			Values to be logged
-* @return		{N/A}
-* @see			date_time_string, date_current_datetime, show_debug_message, string
-*/
+// @description	Logs items to console, with a timestamp, and seperated by spaces
+//
+// @function	log([value], ...)
+// @parameter	{any}		[value]		Values to be logged
+// @return		{N/A}
 function log() {
 	// Attach current time to logged message
-	var logString = "[" + date_time_string(date_current_datetime()) + "]";
+	var _log_string = "[" + date_time_string(date_current_datetime()) + "]";
 
 	// Create string from arguments
 	for(var i = 0; i < argument_count; i++) {
-		logString += " " + string(argument[i]);
+		_log_string += " " + string(argument[i]);
 	}
 
-	show_debug_message(logString);
+	show_debug_message(_log_string);
 }
