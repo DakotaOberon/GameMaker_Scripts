@@ -1,7 +1,7 @@
 // @description	Logs items to console, with a timestamp, and seperated by spaces
 //
 // @function	log([value], ...)
-// @parameter	{any}		[value]		Values to be logged
+// @parameter	{Any}		[value]		Values to be logged
 // @return		{N/A}
 function log() {
 	// Attach current time to logged message

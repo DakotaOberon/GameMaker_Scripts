@@ -2,7 +2,7 @@
 //
 // @function	string_create_with_seperation([_sep], [_args], ...)
 // @parameter	{String}	[_sep]		String seperator between values
-// @parameter	{any}	    [_args]		Values to convert to string
+// @parameter	{Any}	    [_args]		Values to convert to string
 // @return		{String}
 function string_create_with_seperation(_sep="") {
 	var _return_string = "";
